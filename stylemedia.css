@@ -1,0 +1,109 @@
+@media screen and (max-width: 1400px) {
+    .banner-outer {
+        padding: 3% 6%;
+    }
+    .banner-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+        align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .banner-outer {
+        padding: 3%;
+    }
+    .banner-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        align-items: center;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        max-width: 345px;
+        margin-bottom: 30px;
+    }
+    .banner-detail .companies {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        gap: 15px;
+        justify-content: space-between;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    .login li:first-of-type {
+        padding-right: 10px;
+    }
+    .feature {
+        padding-left: 0px;
+    }
+    ul li a {
+        font-size: 14px;
+    }
+    .feature li {
+        padding: 0;
+    }
+    .feature .btn {
+        padding: 8px 0;
+    }
+    .banner-grid {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+        align-items: center;
+    }
+    .banner-outer {
+        padding: 4% 1%;
+    }
+    h1 {
+        font-size: 35px;
+        font-weight: 700;
+        max-width: 100%;
+        margin: 15px 0;
+        text-align: center;
+    }
+    p {
+        font-size: 18px;
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+
+    }
+    .banner-detail button {
+        position: relative;
+        left: 42%;
+        transform: translateX(-50%, -50%);
+
+
+    }
+    .navbar-brand img{
+        width: 130px;
+    }
+    
+  }
+
+  @media screen and (max-width: 767px) {
+    .banner-detail button {
+        position: relative;
+        left: 40%;
+    }
+    .banner-detail .companies {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        gap: 15px;
+        justify-content: space-around;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .banner-detail button {
+        position: relative;
+        left: 35%;
+    }
+  }

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 100vh;
+    background-color: var(--white);
+    font-family: 'Epilogue', sans-serif;
+}
+
+:root {
+    --white: hsl(0, 0%, 98%);
+    --gray: hsl(0, 0%, 41%);
+    --black: hsl(0, 0%, 8%);
+
+}
+
+/* header section */
+header{
+    padding: 2%;
+}
+
+ul li a{
+color: var(--gray);
+}
+
+.login li:first-of-type{
+    padding-right: 30px;
+}
+
+.feature{
+    padding-left: 30px;
+}
+
+.feature .btn{
+    padding: 8px;
+}
+
+.feature li{
+    padding: 0 5px;
+}
+
+
+/* banner css section */
+
+.banner-outer{
+    padding: 3% 12%;
+}
+
+.banner-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    max-width: 486px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 18px;
+    max-width: 430px;
+    margin-bottom: 50px;
+}
+
+.banner-detail button{
+    margin-bottom: 50px;
+}
+
+
+.banner-detail .companies{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    gap: 15px;
+    justify-content: space-between;
+}
